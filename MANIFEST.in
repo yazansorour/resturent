@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include healthcorner *.css
+recursive-include healthcorner *.csv
+recursive-include healthcorner *.html
+recursive-include healthcorner *.ico
+recursive-include healthcorner *.js
+recursive-include healthcorner *.json
+recursive-include healthcorner *.md
+recursive-include healthcorner *.png
+recursive-include healthcorner *.py
+recursive-include healthcorner *.svg
+recursive-include healthcorner *.txt
+recursive-exclude healthcorner *.pyc
